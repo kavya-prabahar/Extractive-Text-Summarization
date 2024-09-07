@@ -1,5 +1,9 @@
 # Extractive-Text-Summarization
-This repository contains the code and resources for my project on extractive text summarization using Restricted Boltzmann Machines (RBM). The project involves developing a model to summarize long pieces of text by extracting the most relevant sentences, leveraging the power of RBMs for feature learning and dimensionality reduction.  
+This repository consists of the files of my project Extractive Text Summarization model using Restricted Boltzmann Machines (RBM), which utilizes key features like title similarity, sentence position, proper noun score, sentence length, and TF-IDF to generate a feature matrix and sentence matrix. The RBM then enhances this feature matrix, allowing for the selection of the top K sentences to form a concise summary. This project improves efficiency in handling large-scale text, enhancing information retrieval and analysis.
+
+To try this project, download the files in Summariser Folder into a folder in your local system. Install add the dependencies stated in the code and run the streamlit file using "streamlit run streamlit.py" in terminal. You can upload a text file and see the results. 
+
+We have utilized the BBC News Summary Dataset which has nearly 2500 files.
 
 Technologies Used:
 
